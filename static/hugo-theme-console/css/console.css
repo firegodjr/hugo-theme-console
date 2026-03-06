@@ -46,17 +46,17 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-	--background-color: #222225;
+	--background-color: #1e1e2e;
 	--page-width: 60em;
-	--font-color: #e8e9ed;
-	--invert-font-color: #222225;
-	--secondary-color: #a3abba;
-	--tertiary-color: #a3abba;
-	--primary-color: #62c4ff;
-	--error-color: #ff3c74;
+	--font-color: #cdd6f4;
+	--invert-font-color: #313244;
+	--secondary-color: #a6adc8;
+	--tertiary-color: #a6adc8;
+	--primary-color: #fab387;
+	--error-color: #f38ba8;
 	--progress-bar-background: #3f3f44;
-	--progress-bar-fill: #62c4ff;
-	--code-bg-color: #3f3f44;
+	--progress-bar-fill: #89b4fa;
+	--code-bg-color: #313244;
     }
 }
 
@@ -307,6 +307,7 @@ figure {
     }
 
     .footer {
+	color: var(--secondary-color);
         margin-top: 50px;
         padding-top: 5px;
     }
